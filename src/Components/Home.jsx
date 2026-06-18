@@ -12,7 +12,7 @@ import { ReactTyped} from "react-typed";
 function Home() {
   return (
    <>
-   <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 '>
+   <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-15  '>
     <div className='flex flex-col md:flex-row'>
 
     <div className='md:w-1/2 mt-15 md:mt-25 order-2 md:order-1'>
@@ -63,7 +63,7 @@ function Home() {
 
     <span className='md:w-1/2 md:ml-65 md:mt-20 mt-8 order-1' >
     <img  src="/ani123.jpeg"
-  alt="Profile" className='rounded-full md:w-102.5 md:h-102.5' alt="" />
+  alt="Profile" className='rounded-full md:w-102.5 md:h-102.5 border-2 border-purple-600 ' alt="" />
     </span>
     </div>
    </div>

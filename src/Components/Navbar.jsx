@@ -34,11 +34,13 @@ function Navbar() {
   return (
    <>
     
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-[0_2px_8px_rgba(168,85,247,0.25)] fixed top-0 left-0 right-0 ">
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-[0_2px_8px_rgba(168,85,247,0.25)] fixed top-0 left-0 right-0 z-50 bg-black">
       <div className='flex justify-between items-center h-16'>
         <div className='flex space-x-2'>
 
-          <h1 className='font-semibold text-xl cursor-pointer'><span className='text-purple-500'>A</span>niket  <span className='text-purple-500'>G</span>upta</h1>
+          <h1 className=' text-2xl cursor-pointer'>
+             
+             <span className='text-purple-300 ml-2 '>Aniket Gupta</span></h1>
 
         </div>
                     {/* Desktop navbat*/}
@@ -63,7 +65,7 @@ function Navbar() {
                 <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl '>
                    {
                     navItem.map(({id,text}) =>(
-                        <li className='hover:scale-105 duration-200  cursor-pointer' key={id}>{text}</li>
+                        <li className='hover:scale-105 duration-300  cursor-pointer ' key={id}>{text}</li>
                     ))
                    }
 
