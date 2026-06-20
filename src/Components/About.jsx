@@ -1,12 +1,19 @@
 import React from 'react'
+import { FaRegUser } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
+import { CgMail } from "react-icons/cg";
+import { CgUnavailable } from "react-icons/cg";
+
+
+
 
 
 function About() {
   return (
 
-    <div>
+    <div name="About">
 
-   <div className="mx-4 md:mx-10 border border-gray-600 rounded-xl bg-gray-900 p-6">
+   <div className="mx-4 md:mx-10 border border-gray-800 rounded-xl bg-gray-900 p-6">
   {/* Content */}
 
 
@@ -39,13 +46,14 @@ function About() {
       DPG Degree College, Gurugram (Haryana)
     </p> */}
 
-  <p className=' mb-3 '> Name :    <span className='text-gray-400 font-normal ml-2' >            Aniket Gupta</span></p>
+  <p className=' mb-3 flex '><FaRegUser size={20} className='mr-3 text-gray-300'/>
+ Name :    <span className='text-gray-400 font-normal ml-2' >            Aniket Gupta</span></p>
 
-  <p  className='mb-3 '>Location : <span className='text-gray-400 font-normal ml-2'>Delhi, India</span></p>
+  <p  className='mb-3 flex '><IoLocationOutline size={20} className='mr-3 text-gray-300' />Location : <span className='text-gray-400 font-normal ml-2'>Delhi, India</span></p>
 
-  <p className='mb-3'>Email : <span className='text-gray-400 font-normal ml-2'>aniketgupta</span></p>
+  <p className='mb-3 flex'><CgMail size={25} className='mr-2 text-gray-300' />Email : <span className='text-gray-400 font-normal ml-2'>aniketgupta3071@gmail.com</span></p>
 
-  <p className=''>Aailability : <span className='text-green-500 font-normal ml-2'>Available for work</span></p>
+  <p className='flex'><CgUnavailable size={25} className='mr-2 text-gray-300' />Aailability : <span className='text-green-500 font-normal ml-2'>Available for work</span></p>
 
 
 

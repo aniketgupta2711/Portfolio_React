@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MdOutlineMenu } from "react-icons/md";
 import { IoCloseSharp } from "react-icons/io5";
-
+import {Link} from "react-scroll"
 
 
 function Navbar() {
@@ -48,12 +48,23 @@ function Navbar() {
                   <ul className='hidden md:flex space-x-8'>
                    {
                     navItem.map(({id,text}) =>(
-                        <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>{text}</li>
+                        <li className='hover:scale-105 duration-200 cursor-pointer' key={id}
+                        >
+                        <Link to={text}
+                        smooth={true}
+                        duration={500}
+                        offset={-70}
+                        activeClass='active'
+                        >{text}</Link>
+                        
+                        </li>
                     ))
                    }
 
                    </ul>
-                 <div onClick={ () => setmenu(!menu)} className='md:hidden'> {menu? <MdOutlineMenu size={24} />:<IoCloseSharp size={24} />} </div>
+                 <div onClick={ () => setmenu(!menu)} className='md:hidden'> {menu? 
+                    <IoCloseSharp size={24} />:
+                    <MdOutlineMenu size={24} />} </div>
            </div>
       </div>
 
@@ -61,11 +72,21 @@ function Navbar() {
 
       {menu && (
 
-             <div> 
+             <div className='bg-black'> 
                 <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl '>
                    {
                     navItem.map(({id,text}) =>(
-                        <li className='hover:scale-105 duration-300  cursor-pointer ' key={id}>{text}</li>
+                        <li className='hover:scale-105 duration-300  cursor-pointer ' key={id}>
+                            <Link
+                            onClick={ () => setmenu(!menu)}
+                            to={text}
+                        smooth={true}
+                        duration={500}
+                        offset={-70}
+                        activeClass='active'
+                        >{text}</Link>
+                            
+                            </li>
                     ))
                    }
 
