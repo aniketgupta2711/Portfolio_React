@@ -1,6 +1,6 @@
 import React from 'react'
 import study from "../assets/study.png"
-import tic from "../assets/scr2.png"
+import tic from "../assets/tic.png"
 import calculate from "../assets/calculate.png"
 import { IoLogOutOutline } from "react-icons/io5";
 
