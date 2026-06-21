@@ -1,7 +1,7 @@
 import React from 'react'
-import site from "../assets/scr3.png"
+import study from "../assets/study.png"
 import tic from "../assets/scr2.png"
-import rock from "../assets/scr1.png"
+import calculate from "../assets/calculate.png"
 import { IoLogOutOutline } from "react-icons/io5";
 
 
@@ -9,10 +9,10 @@ function Projects() {
    const cardItem=[
           {
               id:1,
-              logo:site,
-              name:"E-Commerce Website",
-              char: "A responsive Tic Tac toe game built with HTML, CSS and JavaScript",
-              demo: "_balnk",
+              logo:study,
+              name:"Smart Study Planner",
+              char: "A responsive Tic Tac toe game built with  react",
+              demo: "https://study-planner-omega-olive.vercel.app/",
               
           },
           {
@@ -24,10 +24,10 @@ function Projects() {
           },
           {
               id:3,
-              logo:rock,
-              name:"Rock Paper Scissor ",
+              logo:calculate,
+              name:"Calculater ",
               char:"A responsive Rock Paper Scissor game built with HTML, CSS and JavaScript",
-              demo: "_balnk",
+              demo: "https://calculator-dun-delta.vercel.app/",
           }
       ]
   return (
@@ -52,8 +52,9 @@ function Projects() {
                      <a href={demo} className='flex justify-end text-sm  mt-1 text-purple-600 mx-2 my-2'>Live Demo<IoLogOutOutline className="text-xl  text-purple-600" /></a>
                     
 
-                <div/>
                 </div>
+                
+                
             ))
         }
     </div>
