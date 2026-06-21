@@ -51,9 +51,25 @@ function About() {
 
   <p  className='mb-3 flex '><IoLocationOutline size={20} className='mr-3 text-gray-300' />Location : <span className='text-gray-400 font-normal ml-2'>Delhi, India</span></p>
 
-  <p className='mb-3 flex'><CgMail size={25} className='mr-2 text-gray-300' />Email : <span className='text-gray-400 font-normal ml-2'>aniketgupta3071@gmail.com</span></p>
+  <p className='mb-3 flex items-start'>
+  <CgMail size={20} className="mr-3 text-gray-300 shrink-0 mt-0.5" />
+  <span>
+    Email :
+    <span className='text-gray-400 font-normal ml-2 break-all'>
+      aniketgupta3071@gmail.com
+    </span>
+  </span>
+</p>
 
-  <p className='flex'><CgUnavailable size={25} className='mr-2 text-gray-300' />Availability : <span className='text-green-500 font-normal ml-2'>Available for work</span></p>
+<p className='flex items-start'>
+  <CgUnavailable size={20} className="mr-3 text-gray-300 shrink-0 mt-0.5" />
+  <span>
+    Availability :
+    <span className='text-green-500 font-normal ml-2'>
+      Available for work
+    </span>
+  </span>
+</p>
 
 
 
