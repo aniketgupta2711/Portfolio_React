@@ -53,7 +53,7 @@ function About() {
 
   <p className='mb-3 flex'><CgMail size={25} className='mr-2 text-gray-300' />Email : <span className='text-gray-400 font-normal ml-2'>aniketgupta3071@gmail.com</span></p>
 
-  <p className='flex'><CgUnavailable size={25} className='mr-2 text-gray-300' />Avilability : <span className='text-green-500 font-normal ml-2'>Available for work</span></p>
+  <p className='flex'><CgUnavailable size={25} className='mr-2 text-gray-300' />Availability : <span className='text-green-500 font-normal ml-2'>Available for work</span></p>
 
 
 
