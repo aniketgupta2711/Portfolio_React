@@ -11,7 +11,7 @@ function Projects() {
               id:1,
               logo:study,
               name:"Smart Study Planner",
-              char: "A responsive Tic Tac toe game built with  react",
+              char: "A responsive Smart Study Planner built with  react",
               demo: "https://study-planner-omega-olive.vercel.app/",
               
           },
@@ -26,7 +26,7 @@ function Projects() {
               id:3,
               logo:calculate,
               name:"Calculater ",
-              char:"A responsive Rock Paper Scissor game built with HTML, CSS and JavaScript",
+              char:"A responsive calculate built with HTML, CSS and JavaScript",
               demo: "https://calculator-dun-delta.vercel.app/",
           }
       ]
