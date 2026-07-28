@@ -32,7 +32,7 @@ function Skills() {
             id:4,
             logo:sql,
             name:"MySQL",
-            char:"Dataabase"
+            char:"DataBase"
         },
         {
             id:5,
@@ -44,13 +44,13 @@ function Skills() {
             id:6,
             logo:nodejs,
             name:"Node.js",
-            char:"UI Library"
+            char:"JavaScript Run Time"
         },
         {
             id:7,
             logo:express,
             name:"Express.js",
-            char:"node.js Framework"
+            char:"Framework"
         },
         {
             id:8,
