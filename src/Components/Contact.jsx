@@ -36,7 +36,7 @@ const Contact = ({setNotification}) => {
       {/* left page*/}
       <div className='w-full md:w-1/2'>
         <h1 className='flex text-3xl'><LuSend className="text-purple-600 mr-3 " />Contact Me</h1><br />
-        <p className='text-gray-400'>Open to new opportunitiles and collaboratins </p>
+        <p className='text-gray-400'>Open to new opportunitiles and collaborations </p>
         <span className='text-gray-400 mt-1'>Lest's connect!</span><br />
         <br />
 

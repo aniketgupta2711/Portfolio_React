@@ -4,6 +4,9 @@ import css from "../assets/css.png"
 import javas from "../assets/js.png"
 import sql from "../assets/mysql.png"
 import reactjs from "../assets/physics.png"
+import nodejs from "../assets/nodejs.jpg"
+import express from "../assets/expressjs.png"
+import mongo from "../assets/mongo.png"
 
 function Skills() {
     const cardItem=[
@@ -34,9 +37,28 @@ function Skills() {
         {
             id:5,
             logo:reactjs,
-            name:"React",
+            name:"React.js",
+            char:"Framework"
+        },
+        {
+            id:6,
+            logo:nodejs,
+            name:"Node.js",
             char:"UI Library"
+        },
+        {
+            id:7,
+            logo:express,
+            name:"Express.js",
+            char:"node.js Framework"
+        },
+        {
+            id:8,
+            logo:mongo,
+            name:"MongoDB",
+            char:"Database"
         }
+        
     ]
   return (
     <div name="Skills"

@@ -18,7 +18,7 @@ function About() {
 
 
      <h1 className='text-3xl font-bold mb-5 text-purple-500'>About</h1> 
-     <p className='text-gray-300'>Hi, I'm Aniket Gupta, a BCA student and aspiring Software Engineer passionate about building modern and user-friendly applications. I have experience with React, JavaScript, Java, MySQL, Tailwind CSS, Git, and GitHub, and I enjoy solving problems through code. I am constantly learning new technologies and working on projects to strengthen my development skills and move closer to my goal of becoming a successful Software Engineer.</p>
+     <p className='text-gray-300'>Hi, I'm Aniket Gupta, a BCA student and aspiring MERN Stack Developer passionate about building modern, responsive, and user-friendly web applications. I have hands-on experience with MongoDB, Express.js, React.js, Node.js, JavaScript, MySQL, Tailwind CSS, Git, and GitHub. I enjoy solving real-world problems through code, learning new technologies, and continuously improving my development skills to become a successful Software Engineer.</p>
      <br /> 
 
   {/* education */}
