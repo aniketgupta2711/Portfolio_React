@@ -2,6 +2,8 @@ import React from 'react'
 import study from "../assets/study.png"
 import tic from "../assets/tic.png"
 import calculate from "../assets/calculate.png"
+import inamigos from "../assets/inamigos.png"
+import aitrading from "../assets/aitrading.png"
 import { IoLogOutOutline } from "react-icons/io5";
 
 
@@ -28,7 +30,22 @@ function Projects() {
               name:"Calculater ",
               char:"A responsive calculater built with HTML, CSS and JavaScript",
               demo: "https://calculator-dun-delta.vercel.app/",
+          },
+          {
+              id:4,
+              logo:inamigos,
+              name:"InAmigos website(NGO)",
+              char:"A responsive awareness page for InAmigos Foundation (NGO), built with HTML and CSS, linking directly to their official website.",
+              demo: "https://in-amigos-ngo-drab.vercel.app/",
+          },
+            {
+              id:5,
+              logo:aitrading,
+              name:"AI Trading Research Assistant",
+              char:"AI-powered MERN app that turns natural language trading questions into structured, testable experiments using Google Gemini",
+              demo: "https://ai-trading-research-assistant-seven.vercel.app/",
           }
+          
       ]
   return (
     <div name="Projects">
