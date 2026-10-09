@@ -7,28 +7,14 @@ import {Link} from "react-scroll"
 function Navbar() {
     const [menu,setmenu] = useState(false);
     const navItem = [
-        {   
-            id:1,
-            text:"Home"
-        },
-        {   
-            id:2,
-            text:"About"
-        },
-        {   
-            id:3,
-            text:"Skills"
-        },
-        {   
-            id:4,
-            text:"Projects"
-        },
-        {   
-            id:5,
-            text:"Contact"
-        },
-    ]
-
+    
+    { id: 1, text: "Home" },
+    { id: 2, text: "About" },
+    { id: 3, text: "Experience" }, 
+    { id: 4, text: "Skills" },
+    { id: 5, text: "Projects" },
+    { id: 6, text: "Contact" },
+]
 
 
   return (

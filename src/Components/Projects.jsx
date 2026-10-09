@@ -57,7 +57,7 @@ function Projects() {
     <div className='grid grid-cols-1 md:grid-cols-3 gap-3 my-5 mx-5 flexjustify-items-center'>
         {
             cardItem.map(({id,logo,name,char,demo}) =>(
-                <div  key={id} className="border border-gray-800 bg-gray-900 rounded-lg shadow-lg p-1 pt-3 cursor-pointer hover:scale-110 duration-300 ">
+                <div  key={id} className="border border-gray-800 bg-gray-900 rounded-lg shadow-lg p-1 pt-3 cursor-pointer hover:scale-90 duration-300 ">
                     <img  src={logo} className="w-full object-cover rounded-t-xl p-2 " alt="" />
                     <br />
 
